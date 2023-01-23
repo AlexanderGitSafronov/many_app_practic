@@ -1,0 +1,22 @@
+
+.galary {
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    
+}
+.galary .galery__img {
+    position: relative;
+    height: 650px;
+}
+.galary .galery__img img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.galary .galery__img img.showed {
+    opacity: 1;
+}

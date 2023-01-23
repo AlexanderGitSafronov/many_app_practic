@@ -1,0 +1,21 @@
+
+
+.hide {
+    display: none;
+}
+
+p{
+    width: 200px;
+    border: 2px solid green;
+    background-color: honeydew;
+    padding: 10px;
+}
+.acardeon {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.acardeon__item p{
+    cursor: pointer;
+   
+}

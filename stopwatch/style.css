@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.timer {
+    margin-top: 100px;
+    width: 200px;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 40px;
+}
+.counter {
+    margin-bottom: 30px;
+}
+.btn {
+    width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.btn button {
+cursor: pointer;
+}

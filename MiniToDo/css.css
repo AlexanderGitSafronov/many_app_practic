@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+}
+.todo {
+    margin-top: 100px;
+    border: 2px solid #ccc;
+    width: 400px;
+}
+.todo h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+.todo__ul {
+    margin: 30px 0px;
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.todo__ul li{
+    margin-bottom: 30px;
+}
