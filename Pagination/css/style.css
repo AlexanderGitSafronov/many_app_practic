@@ -1,0 +1,17 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+.pagination__list{
+    display: flex;
+    list-style-type: none;
+}
+.pagination__item{
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.pagination__item--active{
+    background-color: purple;
+}
